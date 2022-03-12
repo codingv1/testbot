@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb795162-e7ae-4f56-af82-4e2a4ae634fd" name="Default Changelist" comment="microservices">
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/dictionaries/liyao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_buffer_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_codec_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_common_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_handler_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_resolver_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_48_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_transport_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_74_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_aop_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_beans_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_context_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_core_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_expression_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_test_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_web_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/gateways/gateways.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartbank-modules-api/smart-bank-api-h2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartbank-modules-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartbank-modules-api/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartbank-modules-api/unnamed.patch" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2073453924">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../springboot-postgresql-docker-example-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/frontend/module3/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="210" />
+    <option name="y" value="55" />
+    <option name="width" value="1168" />
+    <option name="height" value="704" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jupiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jupiter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1647089402883" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\liyao\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb795162-e7ae-4f56-af82-4e2a4ae634fd" name="Default Changelist" comment="" />
+      <created>1647089079272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647089079272</updated>
+      <workItem from="1647089080546" duration="322000" />
+    </task>
+    <task id="LOCAL-00001" summary="microservices">
+      <created>1647089349497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647089349497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="322000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19842407" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="microservices" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35172415" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35172415" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
