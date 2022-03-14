@@ -10,9 +10,9 @@ public class InterceptorAdapterConfig extends WebMvcConfigurerAdapter {
     @Autowired
     private LoginInterceptor authorityInterceptor;
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(authorityInterceptor).addPathPatterns("/**");
-        super.addInterceptors(registry);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(authorityInterceptor).addPathPatterns("/**");
+//        super.addInterceptors(registry);
+//    }
 }

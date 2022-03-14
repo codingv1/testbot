@@ -1,11 +1,14 @@
 package com.axess.history.Intercepter;
 
 
+import com.alibaba.fastjson.JSONObject;
+import com.axess.history.config.RequestWrapper;
 import com.axess.history.config.restapi.ApiErrorResponse;
 import com.axess.history.dto.TokenDto;
 import com.axess.history.exception.JupiterException;
 import com.axess.history.service.VerifyService;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.platform.commons.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
@@ -43,7 +46,8 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
             ////Do not need to intercept
             return true;
         } else {
-            Map<String,String[]> reqMap= request.getParameterMap();
+            RequestWrapper myRequestWrapper = new RequestWrapper(request);
+            Map<String,String> reqMap = dealthedata(myRequestWrapper.getBody());
             log.info("request.getIntHeader:{}",request.getRemoteUser());
             log.info("request.getParameterMap:{}",reqMap.toString());
             if(!reqMap.containsKey("token")){
@@ -56,7 +60,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
                 throw new JupiterException(400,"need the token in request parameter");
             }else{
                 TokenDto tokenDto = new TokenDto();
-                tokenDto.setToken(reqMap.get("token")[0]);
+                tokenDto.setToken(reqMap.get("token"));
 
                 flag= verifyService.verifyToken(tokenDto);
                 if(!flag){
@@ -66,5 +70,13 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
 
             }
         }
+    }
+
+    public  Map<String,String> dealthedata(String wholeStr){
+        Map<String,String> params = null;
+        if(!StringUtils.isBlank(wholeStr)){
+            params = JSONObject.parseObject(wholeStr,Map.class);
+        }
+        return params;
     }
 }

@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Hoxton.SR11</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -85,8 +86,31 @@
 		    <version>1.2.7</version>
 		</dependency>
 
-    </dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-aws-messaging</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-commons</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
 
+    </dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+
+		</dependencies>
+	</dependencyManagement>
 	<build>
 	<finalName>history</finalName>
 		<plugins>
