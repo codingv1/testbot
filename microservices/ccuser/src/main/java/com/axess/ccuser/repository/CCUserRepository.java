@@ -13,12 +13,12 @@ import com.axess.ccuser.model.CCUser;
 public interface CCUserRepository extends JpaRepository<CCUser, Long> {
 
     @Query(value = "select cc_number, available_redeem_points, cc_name, password, " +
-            "total_rewards_gained, user_id, user_name,token " +
+            "total_rewards_gained, user_id, user_name,token,mail_adress " +
             "from ccuser where user_id = ?1 and password = ?2", nativeQuery=true)
     Optional<CCUser> findByUserIdAndPassword(String userId, String password);
 
     @Query(value = "select cc_number, available_redeem_points, cc_name, password, " +
-            "total_rewards_gained, user_id, user_name,token " +
+            "total_rewards_gained, user_id, user_name,token ,mail_adress " +
             "from ccuser where user_id = ?1 and token = ?2", nativeQuery=true)
     Optional<CCUser> getUserbyIdandToken(String userId, String token);
 

@@ -15,7 +15,6 @@ public class Publisher {
     @Value("${cloud.aws.end-point.uri}")
     private String endpoint;
 
-    //@Scheduled(fixedRate = 1000)
     public void scheduleFixedRateTask(CCUser ccUser) {
 
         try {

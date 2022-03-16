@@ -23,12 +23,6 @@ public class RequestWrapper extends HttpServletRequestWrapper {
             in.read(buffer, 0, contentLength);
             in.close();
             this.body = buffer;
-//            int read;
-//            char[] buf = new char[1024 * 8];
-//            while ((read = reader.read(buf)) != -1) {
-//                writer.write(buf, 0, read);
-//            }
-//            this.body = writer.getBuffer().toString().getBytes();
     }
 
     public String getBody() {

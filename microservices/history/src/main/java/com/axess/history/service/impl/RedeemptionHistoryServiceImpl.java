@@ -24,6 +24,8 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
+import static com.alibaba.fastjson.JSON.toJSON;
+
 @Service
 @Slf4j
 public class RedeemptionHistoryServiceImpl implements RedeemptionHistoryService {
@@ -108,8 +110,8 @@ public class RedeemptionHistoryServiceImpl implements RedeemptionHistoryService 
 
 		user.setAvailableRedeemPoints(user.getAvailableRedeemPoints() - historyDto.getTotalPointsRedeemed());
 		user.setTotalRewardsGained(user.getTotalRewardsGained() + historyDto.getTotalAmountGained());
-		log.info("SQS user{}",user.toString());
 		publisher.scheduleFixedRateTask(user);
+		log.info("SQS user{}",user.toString());
 		return user;
 	}
 

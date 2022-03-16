@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class CCUser {
-	
+
 	@Id
 	private long ccNumber;
 	private String ccName;
@@ -14,6 +14,8 @@ public class CCUser {
 	private String password;
 	private double availableRedeemPoints;
 	private double totalRewardsGained;
+	private String token;
+	private String mailAdress;
 	public long getCcNumber() {
 		return ccNumber;
 	}
@@ -56,9 +58,35 @@ public class CCUser {
 	public void setTotalRewardsGained(double totalRewardsGained) {
 		this.totalRewardsGained = totalRewardsGained;
 	}
-	
-	
-	
-	
-	
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
+
+	public String getMailAdress() {
+		return mailAdress;
+	}
+
+	public void setMailAdress(String mailAdress) {
+		this.mailAdress = mailAdress;
+	}
+
+	@Override
+	public String toString() {
+		return "CCUser{" +
+				"ccNumber=" + ccNumber +
+				", ccName='" + ccName + '\'' +
+				", userName='" + userName + '\'' +
+				", userId='" + userId + '\'' +
+				", password='" + password + '\'' +
+				", availableRedeemPoints=" + availableRedeemPoints +
+				", totalRewardsGained=" + totalRewardsGained +
+				", token='" + token + '\'' +
+				", mailAdress='" + mailAdress + '\'' +
+				'}';
+	}
 }

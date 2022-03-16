@@ -46,6 +46,7 @@ public class CCuserApplication implements CommandLineRunner {
 		user.setTotalRewardsGained(0);
 		user.setAvailableRedeemPoints(10000);
 		user.setToken("");
+		user.setMailAdress("tmqhu2@gmail.com");
 		users.add(user);
 		
 		user = new CCUser();
@@ -57,6 +58,8 @@ public class CCuserApplication implements CommandLineRunner {
 		user.setTotalRewardsGained(0);
 		user.setAvailableRedeemPoints(10000);
 		user.setToken("");
+		user.setMailAdress("tmqhu2@gmail.com");
+
 		users.add(user);
 		
 		user = new CCUser();
@@ -67,6 +70,7 @@ public class CCuserApplication implements CommandLineRunner {
 		user.setCcNumber(123456889);
 		user.setTotalRewardsGained(0);
 		user.setAvailableRedeemPoints(10000);
+		user.setMailAdress("jack136317@gmail.com");
 		user.setToken("");
 		users.add(user);
 

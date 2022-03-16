@@ -3,14 +3,12 @@ package com.axess.ccuser.controller;
 import java.util.List;
 import java.util.Objects;
 
-import com.axess.ccuser.JwtTokenUtils;
-import com.axess.ccuser.dto.CCUserDto;
+import com.axess.ccuser.util.JwtTokenUtils;
 import com.axess.ccuser.dto.TokenDto;
 import com.axess.ccuser.exception.RecordExistException;
 import com.axess.ccuser.exception.RecordNotCreatedException;
 import com.axess.ccuser.exception.RecordNotUpdatedException;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
