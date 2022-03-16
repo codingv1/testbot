@@ -4,8 +4,11 @@ import { LoginContext } from "../../contexts/LoginContext";
 import axios from "axios";
 import { API_URL } from "../../Constants";
 import { useHistory } from "react-router-dom";
+import swal from 'sweetalert';
+
 
 function CartItems() {
+  
   let history = useHistory();
   const { cartItems, removeItemFromCart, cartSummary, afterPurchase } =
     useContext(CartContext);
@@ -34,6 +37,7 @@ function CartItems() {
       ccNumber: loggedInUser.ccNumber,
       totalPointsRedeemed: cartSummary.totalRedeemPoints,
       totalAmountGained: cartSummary.totalAmount,
+      token: loggedInUser.token,
     };
     axios
       .post(API_URL + "history/history/", orderData)
@@ -51,7 +55,12 @@ function CartItems() {
         history.push("/order-confirm");
       })
       .catch((error) => {
-        if (error.response) {
+        if (error.response.status === 500){
+          swal("Please login", "your session has expired, please try again", "error");
+          // alert("your session has expired, please try again")
+          history.push("/login");
+        }
+        else if (error.response) {
           console.log(error.response);
         } else if (error.request) {
           console.log(error.request);

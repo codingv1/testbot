@@ -3,23 +3,32 @@ import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { API_URL } from '../../Constants';
 import CatalogueItem from './CatalogueItem';
+import LoginPage from '../login/LoginPage';
+import { LoginContext } from '../../contexts/LoginContext';
 
 
 function RewardCataloguePage() {
 
+
+
     const [catalogueList, setCatalogueList] = useState([]);
     const [catalogueListLoaded, setCatalogueListLoaded] = useState(false);
 
+    const { loggedInUser } = useContext(LoginContext);
 
     const fetchCatalogueList = async () => {
 
+        console.log("token is:"+loggedInUser.token)
         setCatalogueListLoaded(false);
-        await axios.get(API_URL + 'catalogue/catalogue/')
+
+
+        await axios.get(API_URL + 'catalogue/catalogue/?token='+loggedInUser.token)
             .then(response => {
                 console.log(response);
                 setCatalogueList(response.data.body);
                 setCatalogueListLoaded(true);
             })
+            //if error/500, switch to login page
             .catch(error => {
                 if (error.response) {
                     console.log(error.response);
@@ -74,6 +83,8 @@ function RewardCataloguePage() {
 
         </div>
     );
+            
+            
 }
 
 export default RewardCataloguePage;

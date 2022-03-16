@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { API_URL } from '../../Constants';
+import { LoginContext } from '../../contexts/LoginContext';
 
 class RedeemptionCatalogue extends Component {
+    
 
     state = {
         catalogueList: [],
@@ -19,7 +21,9 @@ class RedeemptionCatalogue extends Component {
     }
 
     async fetchCatalogueList() {
-        await axios.get(API_URL + 'catalogue/catalogue/')
+        const { loggedInUser } = useContext(LoginContext);
+
+        await axios.get(API_URL + 'catalogue/catalogue/'+"?token="+loggedInUser.token)
             .then(response => {
 
                 this.setState(

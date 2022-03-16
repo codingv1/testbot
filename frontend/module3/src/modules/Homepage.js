@@ -41,6 +41,7 @@ function Homepage() {
                                             <th>User Name</th>
                                             <th>Available Points</th>
                                             <th>Total Rewards Gained (<i className="fas fa-rupee-sign"></i>)</th>
+                                            <th>Email</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -50,6 +51,7 @@ function Homepage() {
                                             <td>{loggedInUser.userName}</td>
                                             <td>{loggedInUser.availableRedeemPoints}</td>
                                             <td>{loggedInUser.totalRewardsGained}</td>
+                                            <td>tmqhu2@gmail.com</td>
                                         </tr>
                                     </tbody>
 

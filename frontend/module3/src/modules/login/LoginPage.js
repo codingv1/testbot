@@ -4,6 +4,8 @@ import { useHistory } from 'react-router-dom';
 import { API_URL } from '../../Constants';
 import { LoginContext } from '../../contexts/LoginContext';
 
+
+// export const tok =""
 function LoginPage(props) {
     let history = useHistory();
 
@@ -13,8 +15,10 @@ function LoginPage(props) {
         setLoginUserDetails,
         logoutUser } = useContext(LoginContext);
 
+
     const [userId, setUserId] = useState('')
     const [password, setPassword] = useState('')
+    // const [ token, setToken] = useState("");
 
     useEffect(() => {
         console.log(setLoginUserDetails);

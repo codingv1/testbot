@@ -4,6 +4,7 @@ import { LoginContext } from '../../contexts/LoginContext';
 import { CartContext } from '../../contexts/CartContext';
 import CartItems from './CartItems';
 
+
 function CartPage() {
 
     const { isLoggedIn, loggedInUser } = useContext(LoginContext);
